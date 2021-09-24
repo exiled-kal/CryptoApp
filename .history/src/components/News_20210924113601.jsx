@@ -1,3 +1,4 @@
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable react/jsx-curly-newline */
 /* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable operator-linebreak */
@@ -41,7 +42,7 @@ const News = ({ simplified }) => {
               option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
             }
           >
-            <Option value="Cryptocurency">CryptoCurency</Option>
+            <Option value="Cryptocurency"></Option>
             {data?.data?.coins?.map((currency) => (
               <Option value={currency.name}>{currency.name}</Option>
             ))}

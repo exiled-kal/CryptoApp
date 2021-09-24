@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 import React, { useState, useEffect } from "react";
 import { Button, Menu, Typography, Avatar } from "antd";
 import { Link } from "react-router-dom";
@@ -39,7 +38,7 @@ const Navbar = () => {
       <div className="logo-container">
         <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo">
-          <Link to="/">Crypto News</Link>
+          <Link to="/">Your Crypto News</Link>
         </Typography.Title>
         <Button
           className="menu-control-container"

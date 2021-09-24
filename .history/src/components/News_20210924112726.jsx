@@ -1,7 +1,3 @@
-/* eslint-disable react/jsx-curly-newline */
-/* eslint-disable implicit-arrow-linebreak */
-/* eslint-disable operator-linebreak */
-/* eslint-disable quotes */
 
 import React, { useState } from "react";
 import { Select, Typography, Row, Col, Avatar, Card } from "antd";
@@ -41,7 +37,8 @@ const News = ({ simplified }) => {
               option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
             }
           >
-            <Option value="Cryptocurency">CryptoCurency</Option>
+            
+            <Option value="Cryptocurency">Cryptocurrency</Option>
             {data?.data?.coins?.map((currency) => (
               <Option value={currency.name}>{currency.name}</Option>
             ))}

@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 import React, { useState } from "react";
 import HTMLReactParser from "html-react-parser";
 import { useParams } from "react-router-dom";

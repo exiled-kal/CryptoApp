@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
@@ -46,7 +45,7 @@ const App = () => (
           style={{ color: "white", textAlign: "center" }}
         >
           Copyright © 2021
-          <Link to="/"> CryptoApp Inc.</Link> <br />
+          <Link to="/">CryptoApp Inc.</Link> <br />
           All Rights Reserved.
         </Typography.Title>
         <Space>

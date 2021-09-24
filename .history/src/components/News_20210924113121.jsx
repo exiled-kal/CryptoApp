@@ -28,7 +28,7 @@ const News = ({ simplified }) => {
   if (!cryptoNews?.value) return <Loader />;
 
   return (
-    <Row gutter={[24, 24]}>
+    <Row gutter={[2A6, 26]}>
       {!simplified && (
         <Col span={24}>
           <Select
@@ -41,7 +41,7 @@ const News = ({ simplified }) => {
               option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
             }
           >
-            <Option value="Cryptocurency">CryptoCurency</Option>
+            <Option value="Cryptocurency">Cryptocurrency</Option>
             {data?.data?.coins?.map((currency) => (
               <Option value={currency.name}>{currency.name}</Option>
             ))}
